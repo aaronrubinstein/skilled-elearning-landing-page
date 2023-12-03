@@ -4,8 +4,8 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 
 ### Links
 
-- Solution URL: https://github.com/aaronrubinstein/skilled-e-learning-landing-page
-- Live Site URL: https://aaronrubinstein.github.io/skilled-e-learning-landing-page/
+- Solution URL: https://github.com/aaronrubinstein/skilled-elearning-landing-page
+- Live Site URL: https://aaronrubinstein.github.io/skilled-elearning-landing-page/
 
 ### Screenshots
 
