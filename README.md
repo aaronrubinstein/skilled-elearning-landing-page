@@ -11,12 +11,12 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 
 **Desktop**
 
-<img src="./solution/desktop.png" height=100% width=100%>
+<img src="./solution/desktop.png" height=80% width=80%>
 
 **Tablet**
 
-<img src="./solution/tablet.png" height=80% width=80%>
+<img src="./solution/tablet.png" height=40% width=40%>
 
 **Mobile**
 
-<img src="./solution/mobile.png" height=35% width=35%>
+<img src="./solution/mobile.png" height=20% width=20%>
