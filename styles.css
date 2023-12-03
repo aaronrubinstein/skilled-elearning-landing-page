@@ -1,0 +1,393 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+button {
+    border: none;
+    width: 167px;
+    height: 56px;
+    border-radius: 28px;
+    flex-shrink: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+}
+
+button.header-button {
+    background: #13183F;
+}
+
+button.header-button:hover {
+    background: #666CA3;
+}
+
+button.hero-button {
+    height: 63px;
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+button.hero-button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+button.footer-button {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+button.footer-button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 800;
+    color: #13183F;
+    margin-bottom: 29px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #FFF;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #13183F;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #83869A;
+}
+
+header {
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px auto;
+}
+
+.hero {
+    max-width: 1110px;
+    display: flex;
+    margin: 148px auto 226px auto;
+}
+
+.hero-content {
+    flex-basis: 457px;
+}
+
+.hero p {
+    max-width: 445px;
+    margin-bottom: 40px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.hero-image {
+    position: absolute;
+    top: -395px;
+    left: 125px;
+    z-index: -1;
+}
+
+.lower-section {
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    padding: 28px 0 140px 0;
+}
+
+.course-cards {
+    max-width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px 30px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 350px;
+    height: 322px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.heading-card {
+    padding: 64px 32px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 32px 40px 32px;
+    background: #FFF;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.course-card p {
+    margin: 24px 0;
+}
+
+.course-card a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #F74780;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.course-card a:hover {
+    color: #FFA7C3;
+}
+
+.card-icon {
+    position: absolute;
+    top: -28px;
+    left: 32px;
+}
+
+footer {
+    height: 120px;
+    background: #13183F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1329px) {
+    button {
+        width: 140px;
+        height: 48px;
+        font-size: 16px;
+    }
+    
+    button.hero-button {
+        height: 56px;
+        width: 167px;
+    }
+    
+    h1 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    header {
+        max-width: 689px;
+    }
+    
+    .hero {
+        max-width: 689px;
+        margin: 99px auto 186px auto;
+    }
+    
+    .hero-content {
+        flex-basis: 398px;
+    }
+    
+    .hero p {
+        max-width: 398px;
+        margin-bottom: 25px;
+    }
+    
+    .hero-image {
+        top: -260px;
+        left: -70px;
+    }
+    
+    .lower-section {
+        padding: 28px 0 86px 0;
+    }
+    
+    .course-cards {
+        max-width: 689px;
+        gap: 56px 11px;
+    }
+    
+    .card {
+        width: 339px;
+        height: 259px;
+        border-radius: 10px;
+    }
+    
+    .heading-card {
+        padding: 56px 21px 0 32px;
+    }
+    
+    .course-card {
+        padding: 56px 21px 32px 32px;
+    }
+    
+    .course-card p {
+        margin: 16px 0 24px 0;
+    }
+    
+    .footer-content {
+        max-width: 689px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    button {
+        width: 140px;
+        height: 48px;
+        font-size: 16px;
+    }
+    
+    button.hero-button {
+        height: 56px;
+        width: 167px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 26px;
+    }
+    
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    header {
+        max-width: 343px;
+        margin: 16px auto;
+    }
+    
+    .hero {
+        max-width: 343px;
+        margin: 38px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .hero-content {
+        flex-basis: content;
+    }
+    
+    .hero p {
+        max-width: 343px;
+        margin-bottom: 24px;
+    }
+    
+    .image-container {
+        position: relative;
+    }
+    
+    .hero-image {
+        position: relative;
+        display: block;
+        top: auto;
+        left: auto;
+        z-index: 0;
+    }
+    
+    .lower-section {
+        padding: 0px 0 80px 0;
+    }
+    
+    .course-cards {
+        max-width: 343px;
+        gap: 40px 11px;
+    }
+    
+    .card {
+        width: 343px;
+        height: 259px;
+        border-radius: 10px;
+    }
+    
+    .heading-card {
+        height: 120px;
+        padding: 24px 28px;
+    }
+    
+    .course-card {
+        padding: 56px 28px 32px 28px;
+    }
+    
+    .course-card p {
+        margin: 16px 0 24px 0;
+    }
+    
+    .card-icon {
+        top: -24px;
+        left: 28px;
+    }
+    
+    .footer-content {
+        max-width: 343px;
+    }
+}
+
+
+
